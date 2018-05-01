@@ -1,0 +1,95 @@
+body{
+background: black;
+}
+
+#shark{
+	position: relative;
+	height: 100vh;
+	top: 3em;
+}
+
+.shark_body{
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	z-index: 100;
+
+	width: 30em;
+	height: 10em;
+	background: blue;
+	border-radius: 7.5em / 5em;
+}
+
+.shark_mouth{
+	position: absolute;
+	left: 6%;
+	top: 14%;
+	z-index: 200;
+
+	width: 5em;
+	height: 5em;
+	background: white;
+	border-radius: 5em;
+}
+
+.shark_teeth_set1{
+	position: absolute;
+	left: 7%;
+	top: 16%;
+	z-index: 300;
+
+    height: 3.2em;
+    width: 3.2em;
+    background: red;
+    transform: rotate(20deg);
+
+}
+
+.shark_teeth_set2{
+    position: absolute;
+	left: 7%;
+	top: 16%;
+	z-index: 300;
+
+    height: 3.2em;
+    width: 3.2em;
+    background: red;
+    transform: rotate(150deg);
+
+}
+
+.shark_eye{
+	position: absolute;
+	left:14%;
+	top:9%;
+	width: 1em;
+	height: 1em;
+	z-index: 200;
+
+	background: black;
+	border-radius: 2em;
+}
+
+.shark_eyebrow{
+	position: absolute;
+	left: 13.9%;
+	top: 6%;
+	z-index: 300;
+
+    height: 2.5em;
+    width: .2em;
+    background: black;
+    transform: rotate(45deg);
+
+}
+
+.shark_top_fin{
+	position: absolute;
+	left:20%;
+	top:-5%;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+	z-index: 100;
+}
+
